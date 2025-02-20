@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next export",
-    "export": "next export",
-    "start": "next start"
+    "build": "next build && next export"
   },
   "author": "",
   "license": "MIT",
